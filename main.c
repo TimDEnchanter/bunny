@@ -1,9 +1,5 @@
-//
-// Phong shading, with lighting done in eye coordinates, rather than
-// world coordinates.  NOTE: To get the gl_LightSource[i].position in
-// eye coordinates, you have to set the ModelView matrix to the final view
-// BEFORE you call glLightfv().  
-//
+// main.c
+
 #include <GL/gl.h>
 #include <GL/glu.h>
 #include <GL/glut.h>
@@ -65,6 +61,7 @@ void renderScene(void)
 {
 glClearColor(0.5,0.4,0.3,1.0);
 glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+//load object here
 glutSolidTorus(0.4,0.8,128,128);
 glutSwapBuffers();
 }

@@ -1,7 +1,5 @@
-// ................................................................
-// phongEC.frag
+// bunny.frag
 
-// These are set by the .vert code, and they're interpolated.
 varying vec3 ec_vnormal, ec_vposition;
 
 void main()
