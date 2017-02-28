@@ -71,7 +71,7 @@ void set_material()
 {
 float mat_diffuse[] = {0.55,0.47,0.33,1.0};
 float mat_specular[] = {0.95,0.87,0.73,1.0};
-float mat_shininess[] = {20.0};
+float mat_shininess[] = {50.0};
 
 glMaterialfv(GL_FRONT,GL_DIFFUSE,mat_diffuse);
 glMaterialfv(GL_FRONT,GL_SPECULAR,mat_specular);
